@@ -1,1 +1,33 @@
 /* write your styles here */
+
+marquee {
+    width: 100%;
+    height: 5vh;
+    background-color: #ed484c;
+    color: white;
+}
+
+img {
+    width: 80px;
+    height: 50px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c4c4c;
+    width: 100%;
+}
+ul{
+    display: flex;
+    }
+.navbar {
+    text-decoration: none;
+    color: black
+}
+
+li {
+    color: #cacaca;
+    margin-left: 42px;
+    list-style: none;
+    
+}
