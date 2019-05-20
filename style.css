@@ -1,33 +1,96 @@
 /* write your styles here */
+body{
+    margin: 0;
+}
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
 
 marquee {
-    width: 100%;
     height: 5vh;
     background-color: #ed484c;
     color: white;
+    background-size: 100%
 }
 
-img {
-    width: 80px;
-    height: 50px;
+#logo {
+    display: inline-block;
+    margin: 9px;
 }
-header{
+
+#logo-img {
+    width: 80px;
+    height: 34px;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     background-color: #4c4c4c;
-    width: 100%;
 }
-ul{
+
+ul {
     display: flex;
-    }
+}
+
 .navbar {
     text-decoration: none;
-    color: black
+    color: #cacaca;
+    display: inline-block;
 }
 
 li {
-    color: #cacaca;
-    margin-left: 42px;
+    margin-right: 54px;
     list-style: none;
-    
+}
+
+#intro {
+    background: #f18d97 url(images/floral.png) fixed;
+    width: 100%;
+    height: 458px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#join-btn {
+    text-decoration: none;
+    background: black;
+    color: #f18d97;
+    padding: 21px 75px;
+    font-size: 29px;
+    margin-top: 18px;
+}
+#j-p1{
+    margin-left: 15%;
+    font-size: 28px;
+}
+#j-p2{
+    margin-left: 28%;
+    font-size: 28px;
+}
+
+#join {
+    width: 71%;;
+}
+
+#join-hed {
+    display: flex;
+    justify-content: center;
+}
+
+#join-h {
+    font-size: 4em;
+}
+
+#join-para {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+}
+
+#join-button {
+    display: flex;
+    justify-content: center;
 }
