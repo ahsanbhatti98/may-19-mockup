@@ -13,8 +13,10 @@ marquee {
     height: 5vh;
     background-color: #ed484c;
     color: white;
-    background-size: 100%
+    background-size: 100%;
+    padding-top: 7px;
 }
+
 
 #logo {
     display: inline-block;
