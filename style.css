@@ -205,9 +205,11 @@ li {
     background: #ddceb4 url(images/floral.png)
 }
 
-#porto {
+
+/* #porto {
     width: 50%;
-}
+} */
+
 
 #port-fig {
     display: flex;
@@ -319,4 +321,9 @@ li {
 #owner:hover i {
     color: #ec5061;
     transition: 1s;
+}
+@media (max-width :1326px) {
+    #porto {
+        width: 84%;
+    }
 }
