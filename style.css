@@ -206,9 +206,14 @@ li {
 }
 
 
-/* #porto {
+#porto {
     width: 50%;
-} */
+}
+@media (max-width :1366px) {
+    #porto {
+        width: 84%;
+    }
+}
 
 
 #port-fig {
@@ -264,6 +269,7 @@ li {
     width: 270px;
     height: 200px;
     border-radius: 19px;
+    transition:1s;
 }
 
 #contact-us {
@@ -321,9 +327,4 @@ li {
 #owner:hover i {
     color: #ec5061;
     transition: 1s;
-}
-@media (max-width :1326px) {
-    #porto {
-        width: 84%;
-    }
 }
